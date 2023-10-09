@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title>Htlm Class exercise</title>
+</head>
+
+<body>
+    <details>with p tag we make pragraph list</details>
+    <p>This is my first text on <br> Html</p>
+    <h1>will learn Html</h1>
+    <h2>will learn css</h2>
+    <h3>will learn wordpress</h3>
+    <h4>will learn java</h4>
+    <h5>will learn how to make website</h5>
+    <h6>will learn how to write cods</h6>
+    <details>with img tag we can add pics to our website </details>
+    <img src= "20210520_192127.jpg" alt="Image dont showing" width="200px" height="200px">
+</body>
+
+</html>
