@@ -1,0 +1,47 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <details>we can make list with number with ol tag</details>
+    <ol>
+        <li><b>amir</b>shariati</li>
+        <li>zohre</li>
+        <li>hadi</li>
+        <li>mohsen</li>
+        <li>rokhsare</li>
+    </ol>
+
+    <details>we can make without number list with ul tag</details>
+    <ul>
+        <li>amir</li>
+        <li>zohre</li>
+        <li>hadi</li>
+        <li>mohsen</li>
+        <li>rokhsare</li>
+    </ul>
+
+    <details>we can make borderd list with table tag</details>
+    <table border="2px">
+       <details>we can give color to text with color tag</details>
+        <tr bgcolor="red">
+            <td>nam</td>
+            <td bgcolor="blue">nam khanevadegi</td>
+        </tr>
+        <tr>
+            <td>amir </td>
+            <td>shariati</td>
+        </tr>
+    </table>
+
+    <details>we can add links with a tag</details>
+    <a href="www.google.com">Google</a>
+<datalist>we can make box for each part with div tag</datalist>
+<div>
+    <p>this is div test</p>
+</div>
+</body>
+
+</html>
