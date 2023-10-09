@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <details>we make frist pragraph with h1 tag</details>
+    <h1>Heading 1</h1>
+
+    <details>we make secound pragraph with h2 tag</details>
+    <h2>Heading 2</h2>
+
+    <hr>
+
+    <details>we make diffrent styls of text with these tags</details>
+    <p><b>bold</b> text</p>
+    <p><big>bozorg</big> text</p>
+    <p><i>latin</i> text</p>
+    <p><small>kochak</small> text</p>
+    <p><strong>ghavi</strong> text</p>
+    <p><sub>keshide</sub> text</p>
+    <p><sup>keyli keshide</sup> text</p>
+    <p><ins>daron</ins> text</p>
+    <p><del>biron</del> text</p>
+
+    <hr width="200px" align="left">
+
+    <details>with these tag Attributes we can change on pics and texts</details>
+    <p align="left">Paragraph</p>
+
+    <hr width="50%" align="right">
+
+    <div style="width: 50%; height:50px; background-color:black;">
+        <hr width="50%" align="right">
+    </div>
+
+    <hr>
+
+    <details>with img tag we add pics to our website</details>
+    <img src="20210520_192127.jpg" alt="dont show pics" width="60%" border="none">
+
+</body>
+
+</html>
