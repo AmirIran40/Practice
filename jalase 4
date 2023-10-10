@@ -1,0 +1,45 @@
+<html>   
+    <head>
+    </head>
+    <body>
+
+        <div>
+            <h1> Amir Shariati</h1>
+            <h2>Im a beginner in Programming </h2>
+            <img src="20210520_192127.jpg" alt="dont show pic" width="200px" height="200px">
+        </div>
+        <div>
+            <h3>Sumarry</h3>
+            <p>Im 24 years old and now working as an admin in social media like instagram and just started learn programming with HTML</p>
+        </div>
+        <div>
+            <h3>exprience</h3>
+            <ul>
+                <li>I was rent counsouler in sadeghian realestate (2018_2019)</li>
+                <li>I was carpet seller in mashad carpets (2019_2021)</li>
+                <li>Im admin of instagram pages and graphic desiner (2021_persent)</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Skills</h3>
+            <table border="1px">
+                <tr>
+                    <td>english</td>
+                    <td>80%</td>
+                </tr>
+                <tr>
+                    <td>office programmes</td>
+                    <td>70%</td>
+                </tr>
+                <tr>
+                    <td>photoshop and permiere</td>
+                    <td>70%</td>
+                </tr>
+                <tr>
+                    <td>instagram</td>
+                    <td>80%</td>
+                </tr>
+            </table>
+        </div>
+ </body>
+</html>
