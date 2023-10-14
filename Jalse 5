@@ -1,0 +1,55 @@
+
+<html>
+
+<head>
+</head>
+
+<body>
+    <!-- Forms -->
+    <form action="" method="">
+        <!-- Text box -->
+        <label for="user">Customername: </label>
+        <input type="text" name="user"><br>
+
+        <!-- Password box -->
+        <label for="pass">Password: </label>
+        <input type="password" name="pass"><br>
+
+        <!-- Email box -->
+        <label for="email">Email: </label>
+        <input type="email" name="email"><br>
+
+        <!-- Radio box -->
+        <label for="gender">Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> FeMale <br>
+
+        <!-- Checkbox box -->
+        <label for="VisaTypes">Visa Types:</label><br>
+        <input type="checkbox" name="VisaTypes" value="Investment"> Investment
+        <input type="checkbox" name="VisaTypes" value="tourist"> tourist
+        <input type="checkbox" name="VisaTypes" value="Work"> Work
+        <input type="checkbox" name="VisaTypes" value="Eduction"> Eduction<br>
+
+        <!-- Textarea box -->
+        <label for="message">Write us message: </label><br>
+        <textarea name="message" cols="30" rows="10"></textarea><br>
+
+        <!-- Submit button -->
+        <input type="submit" name="submit" value="Submit">
+
+    </form>
+
+    <!-- Colors -->
+    <div style="height: 100px; width: 100px; background-color:Pink(236, 16, 207)"></div>
+    <div style="height: 100px; width: 100px; background-color:rgb(250, 188, 53)"></div>
+    <div style="height: 100px; width: 100px; background-color:#250d66"></div>
+</body>
+<div>
+    <details> In this Day I Learned How to Make Forms and login Information from my Customer Like
+         Their Name and password_Email_call number and what they want and They can send write
+          me message and we take their information and save it
+    </details>
+</div>
+
+</html>
