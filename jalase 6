@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>amir shariati</title>
+</head>
+
+<body>
+<!-- <header with this tag we make our frist box details> -->
+    <header>
+        <h1>Amir</h1>
+        <p>Shariati</p>
+        <!-- <nav with this tag we make our diffrent section in head of site with links> -->
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Summary</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+<!-- <article with this tag we make our section inside a Box> -->
+    <article>
+        <!-- <section we make sprate every section with this tag > -->
+        <section>
+            <h2>Summary</h2>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+        </section>
+
+        <section>
+            <h2>Write me message</h2>
+        </section>
+
+    </article>
+    <!-- <footer we make our end deatails like copyright and contact links with this tag> -->
+    <footer>
+        <p>Copyright &copy Morteza</p>
+        <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Telegram</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Linkedin</a></li>
+        </ul>
+    </footer>
+    <!-- <details> in this day we learned how to make seprate every part of site
+         with box tags like <section>and <header> -->
+</body>
+
+</html>
