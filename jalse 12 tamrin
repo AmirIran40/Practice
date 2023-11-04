@@ -1,0 +1,41 @@
+<?php include("header.php") ?>
+<?php 
+    // if , else , elseif you can add any elseif cods between these two
+    $q="5";
+    if(3<$q && $q<7){
+        echo " one grade";
+    }
+    elseif(0<$q && $q<3){
+      echo" you can add any elseif cods between these two";
+    }
+    else{
+        echo "secound grade ";
+    }
+
+    // loops when you know how many times need to repied the code
+    $w= array("Amir","Zahra","Zohre","Mohsen","Zeynab");
+
+    for ($a=0;$a<=4;$a++){
+        echo " person $a is $w[$a]";
+    }
+    // while. When you know and dont know how many times need to repied the code
+    $b=0;
+    while($b<5){
+    echo" person $b is $w[$b] ";
+    $b++;
+    }
+    // foreach with this make any diffrent cods for each one
+    $fiend = array("Boys"=>array("Zohre", "Zahra", "Zeynab"),
+    "Girls"=>array("Amir", "Mohsen"));
+
+    foreach ($Gender as $key=>$value){
+        echo  " $key ";
+        foreach ($Gender[$key] as $c) {
+            echo " $c ";
+            echo "<h2> End </h2>";
+        } 
+    }
+?>
+<?php include("footer.php") ?>
+
+  

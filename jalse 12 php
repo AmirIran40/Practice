@@ -1,0 +1,20 @@
+<?php include("header.php") ?>
+<main>
+    <div>
+        <?php
+        echo "<p>".$studentscores[$i]."</p>"; 
+    $studentscores = [17, 13, 8, 20, 7];
+    for ($i=1; $i<=5; $i++){
+        if ($studentscores[$i-1] >= 10){
+            echo "<p> Student ".$i." with the score of ".$studentscores[$i-1]." has passed </p>"; 
+        }
+        else {
+            echo "<p> Student ".$i." with the score of ".$studentscores[$i-1]." has failed </p>"; 
+            echo "<h2> End </h2>";
+        }
+    }
+
+?> 
+</main>
+    </div>
+<?php include("footer.php") ?> 
