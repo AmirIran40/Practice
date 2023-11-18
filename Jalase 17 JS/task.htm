@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="class1">Amir Shariati</div>
+    <div class="class2"><img src="20210201_191834.jpg" alt="Cant Show" width="200px" height="200px"></div>
+    <div class="class3">Amir Writing</div>
+    <script>
+        var a = document.querySelector(".class1");
+        var b = document.querySelector(".class2");
+        var be = document.querySelector("img");
+        var c = document.querySelector(".class3");
+
+        c.style.color = "blue";
+        c.style.textAlign = "center";
+
+        setTimeout(function () {
+            a.innerHTML = "Amir Shariati";
+            be.src = "20210205_155904.jpg";
+        }, 3000)
+    </script>
+</body>
+
+</html>
