@@ -32,7 +32,7 @@ let information = {
     age: 24,
     email: 'A40@email.com'
 };
-c(information);
+a(information);
 
 // third way to made an array
 var Countries = new Array(3);
