@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <script src="script1.js"></script>
+    <div id="box">
+        <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+        </style>
+        <script>
+        var box = document.getElementById('box');
+var leftPosition = 0;
+
+function moveBox() {
+  leftPosition += 5;
+  box.style.left = leftPosition + 'px';
+  
+  if (leftPosition < 500) {
+    setTimeout(moveBox, 50);
+  }
+}
+
+moveBox();
+</script>
+    </div>
+</body>
+</html>
